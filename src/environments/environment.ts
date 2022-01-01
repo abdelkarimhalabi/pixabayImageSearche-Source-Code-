@@ -4,7 +4,7 @@
 
 export const environment = {
   production: true,
-  PIXABAY_API_KEY : '23246224-2025e6ab3cf7d78fb6f77c7d1',
+  PIXABAY_API_KEY : '',
   PIXABAY_API_URL : "https://pixabay.com/api/?key="
 };
 
