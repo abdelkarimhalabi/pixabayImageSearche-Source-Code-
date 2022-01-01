@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="box">
+
+        <!-- search bar and search button div -->
+
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <input class="form-control"   [(ngModel)]='searchQuery'  placeholder="Search here">
+            <button (click)="searcheImages(searchQuery)" type="button" class="btn btn-danger" >Search</button>
+
+            <p *ngIf="searching">fetching data ....</p>
+        </div>
+
+        <!-- displaying the retrieved images -->
+
+        <div class="container">
+                <div class="row row-cols" style="padding: 2.1em;" >
+                   <div class="col" *ngFor='let image of images'>
+                        <div class="card mb-3"  style="background-color: #e4f5ff ;font-family:'Source Sans Pro', sans-serif; font-weight: bold;">
+                            
+                    
+                                            <a [href]=image.pageURL>
+                                                <img [src]=image.webformatURL class="card-img-top">
+                                            </a>
+                                            <div class="card-body">
+                                                <p class="card-text">Tags: {{image.tags}}</p>
+                                                <p class="card-text">User: {{image.user}}</p>
+                                                <p class="card-text">Comments: {{image.comments}}</p>
+                                                <p class="card-text">Likes: {{image.likes}}</p>
+                                            </div>
+                                        
+                            
+                        </div>
+                    </div> 
+                </div>
+        </div>        
+    </div>
+</div>
+
+
+

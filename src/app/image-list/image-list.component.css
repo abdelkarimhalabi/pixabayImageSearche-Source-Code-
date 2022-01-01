@@ -1,0 +1,59 @@
+.box{
+    border: 0.2em inset #ffff;;
+    padding: 2.1em;
+    margin: 1.5em;
+    background-color: #ffff;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/* 
+#search-container{
+    margin-top:20%;
+}
+
+.search{
+  height: 70px;
+  max-height: 70px;
+  font-size: 3.5em;
+  color: rgb(32, 31, 31);
+}
+
+.avatar{
+  margin-bottom: 7px;
+}
+
+.searchButton{
+  background-color: #CA1740;
+  color: rgb(32, 31, 31);
+  margin-top:20px;
+}
+
+.image-container{
+  
+  margin: 8px;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+  overflow: hidden;
+}
+
+.results{
+  padding: 8px;
+  margin-bottom: 12px;
+} */
+/* width: 300px;
+  min-height: 100px;
+  max-width: 300px; */
